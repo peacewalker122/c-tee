@@ -55,6 +55,8 @@ int main(int argc, char *argv[]) {
     fclose(files[i]);
   }
 
+  free(files);
+
   return 0;
 }
 
